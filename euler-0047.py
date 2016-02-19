@@ -19,7 +19,6 @@ primes = get_plist(mx)
 chk = 4
 fst = 0
 cnt = 0
-print(getPrimeFactor(14, primes))
 for i in range(mx):
     pf = set(getPrimeFactor(i, primes))
     if len(pf)==chk:
