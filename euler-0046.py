@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
 """Project Euler problem 46"""
 
-from euler import get_plist, is_primes
+from euler import get_plist, is_prime
 
 mx = 10**6
 primes = set(get_plist(mx))
