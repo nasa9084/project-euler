@@ -20,5 +20,5 @@ for p in avail:
         if int(t) in primesset:
             c+=1
             if c==8:
-                print("Answer: " + str(p))
+                print("Answer: " + str(p[0]))
                 quit()
