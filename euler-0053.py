@@ -10,7 +10,6 @@ for i in range(1, 101):
     res.append(re)
 ne = 1
 for n in range(1, 101):
-    print(n)
     ne *= n
     for r in range(1, n):
         c = ne/(res[r-1]*fact(n-r))
