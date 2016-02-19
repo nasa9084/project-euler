@@ -26,7 +26,6 @@ for i in range(mx):
         if cnt==0:
             fst = i
         cnt += 1
-        print(" "*cnt, i, cnt, list(sorted(list(pf)))) if cnt!=0 else ""
         if cnt==chk:
             break
     else:
