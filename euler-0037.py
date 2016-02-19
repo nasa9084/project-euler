@@ -16,6 +16,5 @@ for p in primes:
             if not int(str(p)[:-i-1]) in primesset:
                        break
         else:
-            print(p)
             sm += p
 print("Answer: " + str(sm))
