@@ -20,4 +20,4 @@ for i in range(10,100):
             if frac(i,j)==frac(int(p), int(q)):
                 denom *= int(q)
                 molec *= int(p)
-print("Answer: " + str(frac(molec, denom)))
+print("Answer: " + str(frac(molec, denom).denominator))
