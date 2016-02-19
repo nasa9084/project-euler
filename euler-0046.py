@@ -7,7 +7,7 @@ mx = 10**6
 primes = set(get_plist(mx))
 ans = 0
 for odd in range(9, mx, 2):
-    if odd in primes:
+    if is_prime(odd, primes):
         continue
     flg = True
 
